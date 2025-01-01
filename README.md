@@ -16,7 +16,7 @@ The installation script only requires Ubuntu.
 
     ```sh
     git clone https://github.com/WebSnke/.config-for-Ubuntu
-    cd .config/scripts
+    cd .config-for-Ubuntu/scripts
     ```   
     
 2. Run the included scripts.
