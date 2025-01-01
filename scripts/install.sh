@@ -1,4 +1,5 @@
-FedoraInstallAppList=(
+UbuntuInstallAppList=(
+    "flatpak"
     "neofetch"
 )
 
@@ -6,11 +7,14 @@ FlathubInstallAppList=(
     "com.spotify.Client"
     "com.visualstudio.code"
     "io.github.shiftey.Desktop"
+    "org.mozilla.firefox"
 )
 
-for FedoraApp in ${FedoraInstallAppList[@]}
+apt full-upgrade
+
+for UbuntuApp in ${UbuntuInstallAppList[@]}
 do
-    dnf install -y $FedoraApp 
+    apt install -y $UbuntuApp
 done
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
