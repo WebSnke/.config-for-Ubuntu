@@ -1,21 +1,21 @@
-<h1 align="center">.config for Fedora</h1>
+<h1 align="center">.config for Ubuntu</h1>
 
-<p align="center"><img src="https://www.fedoraproject.org/w/uploads/2/2d/Logo_fedoralogo.png"></p>
+<p align="center"><img width="512px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ubuntu-logo-2022.svg/1920px-Ubuntu-logo-2022.svg.png"></p>
 
-<p align="center">A collection of scripts and files for Fedora Workstation.</p>
+<p align="center">A collection of scripts for Ubuntu.</p>
 
 ## Getting started
 
 ### Requirements
 
-The installation script only requires Fedora Workstation.
+The installation script only requires Ubuntu.
 
 ### Installation
 
 1. Clone this repository
 
     ```sh
-    git clone https://github.com/WebSnke/.config
+    git clone https://github.com/WebSnke/.config-for-Ubuntu
     cd .config/scripts
     ```   
     
