@@ -1,5 +1,3 @@
-#!/bin/bash
-
 RemoveAppList=(
     "cheese" #GNOME Cheese
     "baobab" #GNOME Disk Usage Analyzer
@@ -23,5 +21,5 @@ RemoveAppList=(
 
 for App in ${RemoveAppList[@]}
 do
-    dnf remove $App -y
+    apt remove $App -y
 done
