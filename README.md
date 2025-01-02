@@ -1,7 +1,5 @@
 <h1 align="center">.config for Ubuntu</h1>
 
-<p align="center"><img width="512px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ubuntu-logo-2022.svg/1920px-Ubuntu-logo-2022.svg.png"></p>
-
 <p align="center">A collection of scripts for Ubuntu.</p>
 
 ## Getting started
